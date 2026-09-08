@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>concatenar</title>
+        <script src="java7.js"></script>
+    </head>
+    <body>
+        
+        <h1>PROCESADOR</h1>
+        <label for= "procesador">Procesador:</label>
+            <select id="procesador">
+                <option value="400">Intel i3 - $400</option>
+                <option value="600">Intel i5 - $600</option>
+                <option value="800">Intel i7 - $800</option>
+            </select>
+            <br><br>
+           <h1>DISCO</h1>
+            <label for= "disco">Disco:</label>
+            <select id="disco">
+             <option value="300">500 gb - $300</option>
+                <option value="440"> 1 TB - $440</option>
+                <option value="500">3 TB- $500</option>
+            </select>
+            <br><br>
+
+            <h1>MONITOR</h1>
+            <label for= "monitor">Monitor:</label>
+            <select id="monitor">
+                <option value="250">samsung 20 - $250</option>
+                <option value="350">samsung 22 - $350</option>
+                <option value="550">samsung 28 - $550</option>
+            </select>
+            <br><br>
+
+            <button onclick="calcularPresupuesto()">Calcular</button>
+
+            <label>total presupuesto:</label>
+            <input type="text" id="presupuesTotal" name="presupuesTotal" readonly>
+            <br><br>
+
+        </form>
+        
+        
+
+    </body>
