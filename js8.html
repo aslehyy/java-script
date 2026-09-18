@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>prueba</title>
+    <script src="java8.js"></script>
+</head>
+<body>
+
+    <h2>examen de multiple choice</h2>
+
+    <form id="examenForm">
+        <label for="pregunta1">Pregunta 1: ¿Cuál es la capital de Francia?</label><br>
+        <input type="radio" name="pregunta1" value="a"> a) Madrid<br>
+        <input type="radio" name="pregunta1" value="b"> b) Berlín<br>
+        <input type="radio" name="pregunta1" value="c"> c) París<br><br>
+
+        <label for="pregunta2">Pregunta 2: ¿Cuál es el resultado de 2 + 2?</label><br>
+        <input type="radio" name="pregunta2" value="a"> a) 3<br>
+        <input type="radio" name="pregunta2" value="b"> b) 4<br>
+        <input type="radio" name="pregunta2" value="c"> c) 5<br><br>
+
+        <button type="button" onclick="calcularResultado()">Enviar</button><br><br>
+
+        <input type="text" id="resultado" readonly size="40">
+    </form>
+
+</body>
+</html>
